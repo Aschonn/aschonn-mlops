@@ -15,6 +15,11 @@ import joblib
 import json
 
 
+'''
+    Will change this when we add prebuilt UI to show analytics
+'''
+
+
 def eval_metrics(actual, pred):
     rmse = np.sqrt(mean_squared_error(actual, pred))
     mae = mean_absolute_error(actual, pred)
