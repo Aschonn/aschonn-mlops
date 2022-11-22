@@ -1,8 +1,8 @@
 # manually changes happen here
 
-base: 
-  project: aschonn-mlops-project
-  random_state: 35
+base:
+  project: winequality-project
+  random_state: 42
   target_col: TARGET
 
 data_source:
@@ -11,11 +11,10 @@ data_source:
 load_data:
   raw_dataset_csv: data/raw/winequality.csv
 
-split_data: 
+split_data:
   train_path: data/processed/train_winequality.csv
   test_path: data/processed/test_winequality.csv
-  test_size: .2
-
+  test_size: 0.2
 
 estimators:
   ElasticNet:
