@@ -6,7 +6,7 @@ Finding out that everything is versioned. So one can revert back, thus reducing 
 Pipeline main objectives:
 1) Data validations for specific models (monitoring models)
     
-    <img src="whymonitormodels.png">
+    <img src="https://raw.githubusercontent.com/Aschonn/aschonn-mlops/main/whymonitormodels.PNG">
 
     Things to learn: 
 
