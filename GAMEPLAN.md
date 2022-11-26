@@ -31,4 +31,10 @@ Pipeline main objectives:
 
 3) Models
 
+    monitoring :
+    - performance in production
+    - components
+    - version
+    - security threats.
+
 
