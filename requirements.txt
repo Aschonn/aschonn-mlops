@@ -1,11 +1,17 @@
+#local package install 
+-e .
+
+# third party version control
 dvc
 dvc[gdrive]
+
+# ml packages
 sklearn
 
 # testing
-
 pandas
 
 # automate testing
 pytest
+wheel
 tox
