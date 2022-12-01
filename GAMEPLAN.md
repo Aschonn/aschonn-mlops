@@ -78,5 +78,10 @@ Pipeline main objectives:
 
 
 
+    5) Operational Level Monitoring:
 
+    Three main segments:
 
+        1) Systems Performane Requirements: CPU/GPU, Memory, Fail request management and tracking, Response Time, number of API Calls, and system reliability
+        2) Data Pipeline Monitoring: Input data, Intermediate Workflow Steps (ex: Accepting different input files), Output data, and data quality 
+        3) Model Pipeline: Keep track of dependencies and log it in pipeline of metadata.
