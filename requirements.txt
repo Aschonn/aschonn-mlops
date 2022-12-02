@@ -6,7 +6,7 @@ dvc
 dvc[gdrive]
 
 # ml packages
-sklearn
+scikit-learn
 
 # testing
 pandas
@@ -15,3 +15,6 @@ pandas
 pytest
 wheel
 tox
+
+#wrapper: pep8 for checking style. pyflakes for checking syntax. mccabe for checking complexity.
+flake8

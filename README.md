@@ -8,13 +8,13 @@ tox command:
 tox rebuild:
 "tox -r"
 
-pytest:
+run through tests in pytest:
 "pytest -v"
 
 setup command:
 "pip install -e ."
 
-Build oqn package command:
+create build package, command:
 "python setup.py sdist bdist_wheel"
 
 
