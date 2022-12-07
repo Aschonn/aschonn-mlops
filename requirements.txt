@@ -18,3 +18,7 @@ tox
 
 #wrapper: pep8 for checking style. pyflakes for checking syntax. mccabe for checking complexity.
 flake8
+
+# web application
+flask
+gunicorn
